@@ -2,10 +2,21 @@ body {
   margin: 0;
   padding: 0;
   background-color: #333333;
+  font-family: "Libre Franklin", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 nav .nav-link {
   color: #FF9900;
+}
+
+.main-cards {
+  display: flex;
+  justify-content: center;
+}
+.main-cards .card {
+  margin: 20px 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

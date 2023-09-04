@@ -2,10 +2,24 @@ body{
     margin: 0;
     padding: 0;
     background-color: #333333;
+
+    //fonts
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
+
 nav{
     .nav-link{
         color: #FF9900;
     }
 }
 
+.main-cards{
+    display: flex;
+    justify-content: center;
+    .card{
+        margin: 20px 30px;
+    }
+}
