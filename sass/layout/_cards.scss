@@ -1,0 +1,43 @@
+$color-one:#FF9900;
+
+
+.main-cards{
+    display: flex;
+    justify-content: center;
+    .card-title{
+        color: $color-one;
+    }
+    .card{
+        margin: 20px 30px;
+        background-color: #5c5c5c;
+        box-shadow: 0 10px 80px rgba(0, 0, 0, 0.459);
+        .card-link{
+            color: $color-one;
+            text-decoration: none;
+            border: 0.5px solid ;
+            border-radius: 4px;
+            padding: 5px;   
+            text-transform: uppercase;
+        }
+        figure{
+            overflow: hidden;
+        }
+
+        .precio{
+            color: white;
+            font-size: 20px;
+        }
+
+        .comprar{
+            padding: 15px 20px 15px 20px;
+            border-top: #474747 1px solid;
+        }
+    }
+}
+.card-link:hover{
+    box-shadow: 0 3px 15px rgba(255, 153, 0, 0.603);
+}
+
+.card:hover img{
+    transform: scale(1.1);
+}
