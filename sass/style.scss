@@ -1,6 +1,7 @@
 
 
 @use './layout/cards';
+@use './pages/carpa';
 
 
 // VARIABLES
@@ -16,8 +17,6 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-
-
 
 nav{
     .nav-link{
