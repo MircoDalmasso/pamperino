@@ -2,9 +2,27 @@
 $color-one:#FF9900;
 
 .carpa-main{
-    display: flex;
+    text-align: left;
+    .carpa__title{
+        text-align: center;
+    }
 }
 .carousel{
-    width: 50%;
+    width: 95%;
     margin: 15px 5px 15px 30px;
+    justify-content: center;
+}
+
+.carpa__texts{
+    justify-content: center;
+    margin: 0 5px 0 10px;
+    .texts_box-1{
+    p{
+        opacity: 85%;   
+    }
+    }
+    .third-p{
+    white-space: pre-line   ;
+    }
+
 }
