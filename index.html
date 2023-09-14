@@ -13,150 +13,120 @@
     <link rel="stylesheet" href="./css/style.css">
     <!--Fin CSS-->
 
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Fin Icons-->
+
     <!--Script Boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <!--Fin de Script Boostrap-->
 </head>
 
-<body>
-    <!--Header-->
-    <nav class="navbar navbar-expand-lg" style="background-color: transparent">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt="logo" width="170px"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center" style="color: #FF9900">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./pages/conjuntos.html">Conjuntos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Colchones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Variado</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
+    <body>
+        <!--Header-->
+        <nav class="navbar navbar-expand-lg" style="background-color: transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt="logo" width="170px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center" style="color: #FF9900">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./pages/conjuntos.html">Conjuntos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Colchones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/variado.html">Variado</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
             </div>
+        </nav>
+        
+        <main>
+        </main>
+
+        <!--Footer-->
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <img src="../img/logo.png" alt="">
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-links" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-links" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-links" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Informacion</h3>
+                </li>
+                <li>
+                    <a href="./index.html" class="footer-link">Inicio</a>
+                </li>
+                <li>
+                    <a href="./pages/informacion.html" class="footer-link">Contacto</a>
+                </li>
+                <li>
+                    <a href="./pages/informacion.html" class="footer-link">Metodos de pago</a>
+                </li>
+                <li>
+                    <a href="./pages/informacion.html" class="footer-link">Envios</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Productos</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Conjuntos</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Colchones</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Carpas de techo</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">link</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">link</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">link</a>
+                </li>
+            </ul>
         </div>
-    </nav>
-    
-    <main>
 
-    <!--Cards-->
-    <!--Colchones-->
-    <section class="main-cards">
-        <div class="main-cards__colchones">
-            <div class="card" style="width: 18rem;">
-                <figure>
-                    <img src="./img/Colchon gris.jpeg" class="card-img-top" alt="colchon gris">
-                </figure>
-                
-                <div class="card-body">
-                    <h5 class="card-title">Somier y Colchon  2 plazas</h5>
-                    <p class="card-text">Conjunto Somier y Colchon Alta densidad, 28 cm altura, total matelase, soporta hasta 100 kg x lado, base robusta con 7 patas, envios express en Resistencia y Corrientes.</p>
-                    <p class="card-text precio">$103.900,00</p>
-                </div>
-
-                <div class="card-body comprar">
-                    <a href="#" class="card-link" id="bottone1">Comprar</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <figure>
-                    <img src="./img/colchon rojo.jpeg" class="card-img-top" alt="colchon rojo">
-                </figure>
-                
-                <div class="card-body">
-                    <h5 class="card-title">Somier y Colchon 2 1/2 plazas</h5>
-                    <p class="card-text">Sommier tela yakard o matelasse 2 1/2 plazas 140 ancho. BASE construida en madera estacionada muy robusta, COLCHÓN 26 cm altura espuma alta calidad costura reforzada.    Color Rojo / Azul / Bordo. Envíos express en Resistencia y alrrededores en planta baja.</p>
-                    <p class="card-text precio">$87.900,00</p>
-                </div>
-
-                <div class="card-body comprar">
-                    <a href="#" class="card-link" id="bottone1">Comprar</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <figure>
-                    <img src="./img/colchon rojo.jpeg" class="card-img-top" alt="colchon rojo">
-                </figure>
-                
-                <div class="card-body">
-                    <h5 class="card-title">Somier y Colchon  2 plazas</h5>
-                    <p class="card-text">Conjunto Euro 2 plazas Somier y Colchón  matelase 130 cm ancho y 26 cm altura, base robusta con 7 patas, envios express en Resistencia y Corrientes.</p>
-                    <p class="card-text precio">$85.900,00</p>
-                </div>
-
-                <div class="card-body comprar">
-                    <a href="#" class="card-link" id="bottone1">Comprar</a>
-                </div>
-            </div>
+        <div id="footer_copyright">
+            &#169
+            2023 all rights reserved
         </div>
-    </section>
-
-    <div class="linea"></div>
-
-    <!--Carpas-->
-    <section class="main-cards">
-        <div class="main-cards__carpas">
-            <div class="card" style="width: 18rem;">
-                <figure>
-                    <img src="./img/Carpa.JPG" class="card-img-top" alt="carpa de techo">
-                </figure>
-                
-                <div class="card-body">
-                    <h5 class="card-title">Carpa de techo</h5>
-                    <p class="card-text">Este modelo   mide 1,40 mts x 1,10m cerrada, lo que al extenderlo ofrece un espacio de  1,40 ancho x 2,20 mts largo, 2 1/2 plazas x 1.05 mts alto. Envios a todo el pais</p>
-                    <p class="card-text precio">$580.000,00</p>
-                </div>
-
-                <div class="card-body comprar">
-                    <a href="#" class="card-link" id="bottone1">Comprar</a>
-                    <a href="./pages/carpa.html" class="card-link" id="bottone1">Mas info</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <figure>
-                    <img src="./img/Colchon gris.jpeg" class="card-img-top" alt="colchon gris">
-                </figure>
-                
-                <div class="card-body">
-                    <h5 class="card-title">Somier y Colchon</h5>
-                    <p class="card-text">Conjunto Somier y Colchon Alta densidad, 28 cm altura, total matelase, soporta hasta 100 kg x lado, base robusta con 7 patas, envios express en Resistencia y Corrientes.</p>
-                    <p class="card-text precio">$103.900,00</p>
-                </div>
-
-                <div class="card-body comprar">
-                    <a href="#" class="card-link" id="bottone1">Comprar</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <figure>
-                    <img src="./img/Colchon gris.jpeg" class="card-img-top" alt="colchon gris">
-                </figure>
-                
-                <div class="card-body">
-                    <h5 class="card-title">Somier y Colchon</h5>
-                    <p class="card-text">Conjunto Somier y Colchon Alta densidad, 28 cm altura, total matelase, soporta hasta 100 kg x lado, base robusta con 7 patas, envios express en Resistencia y Corrientes.</p>
-                    <p class="card-text precio">$103.900,00</p>
-                </div>
-
-                <div class="card-body comprar">
-                    <a href="#" class="card-link" id="bottone1">Comprar</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    </main>
-</body>
+    </footer>
+    </body>
 </html>

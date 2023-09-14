@@ -58,8 +58,12 @@ footer{
     flex-direction: column;
     gap: 0.75rem;
     list-style: none;
+    h3{
+        text-transform: uppercase;
+    }
     .footer-link{
         color: rgba(105, 105, 105, 0.822);
+        text-decoration: none;
     }
     .footer-link:hover{
         color: $color-one;

@@ -1,4 +1,8 @@
-@use './layout/cards';
+//pages
 @use './pages/carpa';
+@use './pages/informacion';
+
+//layaout
+@use './layout/cards';
 @use './layout/footer';
 @use './layout/header';

@@ -1,3 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.carpa-main {
+  text-align: left;
+}
+.carpa-main .carpa__title {
+  text-align: center;
+}
+
+.carousel {
+  width: 95%;
+  margin: 15px;
+}
+
+.carpa__texts {
+  justify-content: center;
+  margin: 0 5px 0 10px;
+}
+.carpa__texts .texts_box-1 p {
+  opacity: 85%;
+}
+.carpa__texts .third-p {
+  white-space: pre-line;
+}
+
 .main-cards {
   display: flex;
   justify-content: center;
@@ -36,34 +64,6 @@
 
 .card:hover img {
   transform: scale(1.1);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.carpa-main {
-  text-align: left;
-}
-.carpa-main .carpa__title {
-  text-align: center;
-}
-
-.carousel {
-  width: 95%;
-  margin: 15px;
-}
-
-.carpa__texts {
-  justify-content: center;
-  margin: 0 5px 0 10px;
-}
-.carpa__texts .texts_box-1 p {
-  opacity: 85%;
-}
-.carpa__texts .third-p {
-  white-space: pre-line;
 }
 
 footer {
@@ -120,8 +120,12 @@ footer {
   gap: 0.75rem;
   list-style: none;
 }
+.footer-list h3 {
+  text-transform: uppercase;
+}
 .footer-list .footer-link {
   color: rgba(105, 105, 105, 0.822);
+  text-decoration: none;
 }
 .footer-list .footer-link:hover {
   color: #FF9900;
