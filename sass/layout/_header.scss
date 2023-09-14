@@ -1,0 +1,25 @@
+nav{
+    .navbar-brand{
+        margin-right: 30px;
+    }
+    .nav-link{
+        color: $color-one;
+        text-transform: uppercase;
+        margin: 0 5px;
+    }
+}
+
+.linea{
+    border: 0.5px solid $color-one;
+}
+
+.btn{
+    border-color: $color-one;
+    color: $color-one;
+}
+
+.btn:hover{
+    border-color: $color-one;
+    background-color: $color-one;
+    color: white;
+}

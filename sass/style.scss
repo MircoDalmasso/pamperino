@@ -1,11 +1,12 @@
-
-
-@use './layout/cards';
-@use './pages/carpa';
-
+@use './imports';
 
 // VARIABLES
 $color-one:#FF9900;
+
+*{
+letter-spacing: 1px;
+}
+
 
 body{
     margin: 0;
@@ -18,13 +19,4 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-nav{
-    .nav-link{
-        color: $color-one;
-    }
-}
-
-.linea{
-    border: 0.5px solid $color-one;
-}
 
