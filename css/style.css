@@ -26,6 +26,43 @@
   white-space: pre-line;
 }
 
+.main {
+  display: grid;
+  grid-template-columns: 3fr;
+}
+
+.card {
+  background-color: black;
+  color: #FF9900;
+  margin: 10px;
+}
+.card h5 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.card p {
+  text-align: center;
+}
+
+.card-icon {
+  display: flex;
+  align-items: center;
+}
+.card-icon img {
+  height: 50px;
+  margin: 10px;
+  box-shadow: 0 100px 80px rgba(0, 0, 0, 0.459);
+}
+
+div.card:nth-child(3) p {
+  text-align: left;
+}
+
+div.card:nth-child(1) p {
+  font-size: 30px;
+}
+
 .main-cards {
   display: flex;
   justify-content: center;
