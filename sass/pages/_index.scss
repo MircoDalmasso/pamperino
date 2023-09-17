@@ -9,11 +9,12 @@
 }
 
 .secciones_index{
+    display: flex;
     justify-content: center;
     align-items: center;
     img{
         height: 300px;
-        margin: 50px 90px;
+        margin: 50px 0px;
         border-radius: 10px;
         box-shadow: 0 20px 100px rgba(0, 0, 0, 0.651);
     }
