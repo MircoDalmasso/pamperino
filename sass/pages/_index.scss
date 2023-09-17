@@ -2,3 +2,14 @@
     width: 100%;
     height: 200px;
 }
+
+.secciones_index{
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 300px;
+        margin: 50px 90px;
+        border-radius: 10px;
+        box-shadow: 0 20px 100px rgba(0, 0, 0, 0.651);
+    }
+}

@@ -69,6 +69,17 @@ div.info:nth-child(1) p {
   height: 200px;
 }
 
+.secciones_index {
+  justify-content: center;
+  align-items: center;
+}
+.secciones_index img {
+  height: 300px;
+  margin: 50px 90px;
+  border-radius: 10px;
+  box-shadow: 0 20px 100px rgba(0, 0, 0, 0.651);
+}
+
 .main-cards {
   display: flex;
   justify-content: center;
