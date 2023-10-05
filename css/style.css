@@ -31,6 +31,12 @@
   grid-template-columns: 3fr;
 }
 
+#title-info {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
 .info {
   background-color: black;
   color: #FF9900;
